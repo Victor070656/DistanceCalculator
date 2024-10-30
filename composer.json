@@ -1,0 +1,24 @@
+{
+  "name": "vpro/geo-calculator",
+  "description": "A PHP package for calculating geographical distances",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GeoCalculator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Victor Ikechukwu",
+      "email": "ikechukwuv052@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "stable"
+}
